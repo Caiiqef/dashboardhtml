@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:wght@100;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: white;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.3px solid #2d2c2c;
+    background: #2d2c2c;
+}
+
+.nome_usuario{
+    margin-right: 15px;
+}
+
+.foto{
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+    transition: transform 0.2s;
+    border-radius: 50%;
+    /* border: 1px solid white; */
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-grow: 4; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.titulo{
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.cards{
+    border-bottom: 0.3px solid #2d2c2c;
+    padding: 10px;
+}
+
+.cards-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards-unit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-1{
+    /* border: 1px solid #2d2c2c; */
+    border-radius: 2px;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fefffe;
+    background-color: #fe5356;
+    width: 150px;
+    transition: transform 0.2s;
+}
+
+.card-2{
+     /* border: 1px solid #2d2c2c; */
+     border-radius: 2px;
+     padding: 15px;
+     font-family: 'Raleway', sans-serif;
+     font-size: 18px;
+     font-weight: 600;
+     color: #fefffe;
+     background-color: #59cbfe;
+     width: 150px;
+     transition: transform 0.2s;
+
+}
+.card-3{
+     /* border: 1px solid #2d2c2c; */
+     border-radius: 2px;
+     padding: 15px;
+     font-family: 'Raleway', sans-serif;
+     font-size: 18px;
+     font-weight: 600;
+     color: #fefffe;
+     background-color: #ffd31c;
+     width: 150px;
+     transition: transform 0.2s;
+
+}
+.card-4{
+     /* border: 1px solid #2d2c2c; */
+     border-radius: 2px;
+     padding: 15px;
+     font-family: 'Raleway', sans-serif;
+     font-size: 18px;
+     font-weight: 600;
+     color: #fefffe;
+     background-color: #30d169;
+     width: 150px;
+     transition: transform 0.2s;
+}
+
+.card-1:hover{
+    transform: scale(1.15);
+}
+
+.card-2:hover{
+    transform: scale(1.15);
+}
+
+.card-3:hover{
+    transform: scale(1.15);
+}
+
+.card-4:hover{
+    transform: scale(1.15);
+}
+
+.graph{
+    padding: 10px;
+    border-bottom: 0.3px solid #2d2c2c;
+}
+
+.graph-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.graph-unit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    width: auto;
+}
+
+.graph{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 0.3px solid #2d2c2c;
+}
+
+.contato-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato-unit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.nome{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.profile{
+    width: 150px;
+    padding: 5px;
+    transition: transform 0.2s;
+    border-radius: 50%;
+    border: 1px solid #2d2c2c;
+}
+
+.profile:hover{
+    transform: scale(1.05);
+}
+
+.contato-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 25px;
+}
